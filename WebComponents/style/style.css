@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card{
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 15px 10px 27px 15px rgb(27, 27, 27);
+    -webkit-box-shadow: 10px 8px 27px 15px rgb(27, 27, 27);
+    -moz-box-shadow: 10px 8px 27px 15px rgb(27, 27, 27);
+    justify-content: space-between;
+}
+
+.Left{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.Left > span{
+    font-weight: 400;
+}
+
+.Left > p{
+
+color: rgb(27, 27, 27);
+}
+
+.Left > a{
+    margin-top: 15px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
